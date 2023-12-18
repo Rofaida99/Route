@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+    <div class="container py-6">
+        <h1>Bookmarker</h1>
+        
+
+
+        <form>
+            <h2>Bookmark your favorite sites</h2>
+            <div class="mb-3">
+                <label for="productName">Site Name</label>
+                <input type="text" id="siteName" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label for="productPrice">Site URL</label>
+                <input type="text" id="siteUrl" class="form-control" />
+            </div>
+
+            <button type="button" onclick="addSite()" class="btn btn-outline-info mx-auto">Submit</button>
+        </form>
+
+
+        <a href="" target="_blank"></a>
+        <table class="table text-center table-dark table-striped table-hover table-bordered mt-4 ">
+            <thead>
+                <th>Index</th>
+                <th>Website Name</th>
+                <th>Visit</th>
+                <!-- <th>update</th> -->
+                <th>Delete</th>
+            </thead>
+            <tbody id="myTable">
+
+
+
+
+
+
+
+
+
+
+                <script src="main.js"></script>
+</body>
+
+</html>

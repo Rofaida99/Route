@@ -1,0 +1,60 @@
+body {
+    background-color: #f5f3e9; /* Light brown background color */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    display: inline-block;
+    position: relative;
+}
+
+h1::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1:hover {
+    background-color: yellow;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 750;
+    color: linear-gradient(to right, #90EE90, #006400); 
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+}
+
+h2::before,
+h2::after {
+    content: '\2022'; 
+    color: white;
+}
+
+h2::before {
+    margin-right: 5px;
+}
+
+h2::after {
+    margin-left: 5px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.btn-outline-info {
+    background-color: #bb4120;
+    color: white;
+}
